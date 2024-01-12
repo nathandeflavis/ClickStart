@@ -1,0 +1,29 @@
+body {
+    background-color:lightcyan;
+}
+
+div.clearfloat {
+    clear: both;
+}
+
+div.flexbox {
+    background-color: beige;
+}
+
+div.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+div.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+img.floatright {
+    float: right;
+}
+
+small.copyright {
+    color: rgb(128,128,128);
+}
