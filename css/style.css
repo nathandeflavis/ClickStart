@@ -1,7 +1,18 @@
+/*single elements*/
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body {
     background-color:lightcyan;
 }
 
+/*multiple elements*/
+h1, h2, th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*classes*/
 div.clearfloat {
     clear: both;
 }
@@ -22,6 +33,10 @@ div.flexrow {
 
 img.floatright {
     float: right;
+}
+
+img.border {
+    border: solid thin grey;
 }
 
 small.copyright {
