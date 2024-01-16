@@ -7,6 +7,10 @@ body {
     background-color:lightcyan;
 }
 
+div {
+    padding: 5px;
+}
+
 /*multiple elements*/
 h1, h2, th {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -22,6 +26,9 @@ div.flexbox {
 }
 
 div.flexcolumn {
+    border-color: grey;
+    border-style: dotted;
+    border-width: 1px;
     display: flex;
     flex-direction: column;
 }
