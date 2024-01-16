@@ -7,6 +7,10 @@ body {
     background-color:lightcyan;
 }
 
+button {
+    font-size: 100%;
+}
+
 div {
     padding: 5px;
 }
@@ -21,16 +25,16 @@ div.clearfloat {
     clear: both;
 }
 
-div.flexbox {
-    background-color: beige;
+div.flexcolumn {
+    display: flex;
+    flex-direction: column;
 }
 
-div.flexcolumn {
+div.flexgrid {
+    background-color: beige;
     border-color: grey;
     border-style: dotted;
     border-width: 1px;
-    display: flex;
-    flex-direction: column;
 }
 
 div.flexrow {
