@@ -3,14 +3,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-body {
-    background-color:lightcyan;
-}
-
-button {
-    font-size: 100%;
-}
-
 div {
     padding: 5px;
 }
@@ -31,7 +23,7 @@ div.flexcolumn {
 }
 
 div.flexgrid {
-    background-color: beige;
+    background-color: #eeeeee;
     border-color: grey;
     border-style: dotted;
     border-width: 1px;
