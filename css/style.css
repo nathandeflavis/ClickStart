@@ -3,22 +3,22 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-div {
-    padding: 5px;
+footer {
+    bottom: 0px;
+    position: fixed;
 }
 
 /*multiple elements*/
+div, main {
+    padding: 5px;
+}
+
 h1, h2, th {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*classes*/
-div.clearfloat {
-    clear: both;
-}
-
 div.flexcolumn {
-    display: flex;
     flex-direction: column;
 }
 
@@ -30,18 +30,14 @@ div.flexgrid {
 }
 
 div.flexrow {
-    display: flex;
     flex-direction: row;
-}
-
-img.floatright {
-    float: right;
-}
-
-img.border {
-    border: solid thin grey;
 }
 
 small.copyright {
     color: rgb(128,128,128);
+}
+
+/*multiple classes*/
+div.flexcolumn, div.flexrow {
+    display: flex;
 }
