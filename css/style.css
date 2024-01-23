@@ -9,12 +9,12 @@ footer {
 }
 
 /*multiple elements*/
-h1, h2, th {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+div, main {
+    padding: 5px;
 }
 
-div.flexcolumn, main {
-    padding: 5px;
+h1, h2, th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*classes*/

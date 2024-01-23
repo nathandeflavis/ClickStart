@@ -14,13 +14,9 @@
 
         <!-- ensure page is properly displayed on mobile devices and enable touch zooming -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-        <!-- use W3 html include -->
-        <script src="http://www.w3schools.com/lib/w3data.js"></script>
     </head>
     <body>
-        <div w3-include-html="w3-html-include/header.html"></div>
+        <script src="js/header.js"></script>
         <main>
             <p><span style="font-size: 125%;">Welcome</span> to my website.</p>
             </div>
@@ -58,12 +54,7 @@
             </ul>
             <p>Last updated: January 2024</p>
         </main>
-
-        <!-- make content just above footer visible -->
         <div class="container p-2"></div>
-
-        <div w3-include-html="w3-html-include/footer.html"></div>
-        <script>w3IncludeHTML();</script>
-        <noscript>This website uses JavaScript, which doesn't appear to be enabled in your browser.</noscript>
+        <script src="js/footer.js"></script>
     </body>
 </html>

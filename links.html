@@ -27,13 +27,9 @@
 
         <!-- ensure page is properly displayed on mobile devices and enable touch zooming -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-        <!-- use W3 html include -->
-        <script src="http://www.w3schools.com/lib/w3data.js"></script>
     </head>
     <body>
-        <div w3-include-html="w3-html-include/header.html"></div>
+        <script src="js/header.js"></script>
         <main>
             <h1>Links</h1>
             <table class="table table-striped">
@@ -57,33 +53,9 @@
                     </td>
                     <td>My GitHub profile.</td>
                 </tr>
-                <tr>
-                    <td>
-                        <a class="useful" href="https://smashyouthproject.co.uk" target="_blank">SMASH Youth Project</a>
-                    </td>
-                    <td>Website which I helped maintain.</td>
-                </tr>
-                <tr>
-                    <td>
-                        <a class="useful" href="https://thedockswindon.co.uk" target="_blank">The Swindon Dock</a>
-                    </td>
-                    <td>Website which I helped build and maintain.</td>
-                </tr>
-                
-                <tr>
-                    <td>
-                        <a class="useful" href="https://www.connectandcommunicate.com.sg/staging/" target="_blank">Connect & Communicate</a>
-                    </td>
-                    <td>Website prototype which I helped build.</td>
-                </tr>
             </table>
         </main>
-
-        <!-- make content just above footer visible -->
         <div class="container p-2"></div>
-
-        <div w3-include-html="w3-html-include/footer.html"></div>
-        <script>w3IncludeHTML();</script>
-        <noscript>This website uses JavaScript, which doesn't appear to be enabled in your browser.</noscript>
+        <script src="js/footer.js"></script>
     </body>
 </html>
