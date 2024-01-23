@@ -19,11 +19,15 @@
         <script src="http://www.w3schools.com/lib/w3data.js"></script>
     </head>
     <body>
-        <script src="js/header.js"></script>
+        <div w3-include-html="w3-html-include/header.html"></div>
         <main>
         </main>
+
+        <!-- make content just above footer visible -->
         <div class="container p-2"></div>
-        <script src="js/footer.js"></script>
-        <noscript>This website requires JavaScript, which doesn't appear to be enabled in your browser.</noscript>
+
+        <div w3-include-html="w3-html-include/footer.html"></div>
+        <script>w3IncludeHTML();</script>
+        <noscript>This website uses JavaScript, which doesn't appear to be enabled in your browser.</noscript>
     </body>
 </html>
