@@ -37,4 +37,26 @@ function includeHTML() {
     });
 }
 
+//source: 'How To Create an On Scroll Fixed Header' by W3Schools (n.d.) (https://www.w3schools.com/howto/howto_js_sticky_header.asp)
+function makeHeaderSticky() {
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {onscroll()};
+
+    // Get the header
+    var header = document.getElementsByTagName("header")[0];
+
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function onscroll() {
+        if (window.scrollY > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+}
+
 includeHTML();
+makeHeaderSticky();

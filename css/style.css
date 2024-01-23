@@ -33,6 +33,12 @@ div.flexrow {
     flex-direction: row;
 }
 
+header.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
 small.copyright {
     color: rgb(128,128,128);
 }
@@ -40,4 +46,8 @@ small.copyright {
 /*multiple classes*/
 div.flexcolumn, div.flexrow {
     display: flex;
+}
+
+header.sticky + main {
+    padding-top: 100px; /*Add some top padding to the page content to prevent sudden quick movement*/
 }
