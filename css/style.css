@@ -1,53 +1,8 @@
-/*single elements*/
 * {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-footer {
-    bottom: 0px;
-    position: fixed;
-}
-
-/*multiple elements*/
-div, main {
-    padding: 5px;
-}
-
-h1, h2, th {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-/*classes*/
-div.flexcolumn {
-    flex-direction: column;
-}
-
-div.flexgrid {
-    background-color: #eeeeee;
-    border-color: grey;
-    border-style: dotted;
-    border-width: 1px;
-}
-
-div.flexrow {
-    flex-direction: row;
-}
-
-header.sticky {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-
-small.copyright {
-    color: rgb(128,128,128);
-}
-
-/*multiple classes*/
-div.flexcolumn, div.flexrow {
-    display: flex;
-}
-
-header.sticky + main {
-    padding-top: 100px; /*Add some top padding to the page content to prevent sudden quick movement*/
+div {
+    padding: 5px;
 }
