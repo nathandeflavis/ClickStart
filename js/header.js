@@ -3,12 +3,12 @@ function includeHTML() {
     '       <header class="w3-top">',
     '           <nav class="w3-bar w3-border w3-dark-grey">',
     '               <a class="w3-bar-item w3-button">',
-    '                   <img alt="Nathan" width="18" height="18" src="./images/nathan.jpeg">',
+    '                   <img alt="Nathan." width="18" height="18" src="./images/nathan.jpeg">',
     '                   Nathan De Flavis',
     '               </a>',
-    '               <a class="w3-bar-item w3-button w3-right" href="terms.html" id="terms">',
-    '                   <i class="fa fa-legal"></i>',
-    '                   Terms',
+    '               <a class="w3-bar-item w3-button w3-right" href="portfolio.html" id="portfolio">',
+    '                   <i class="fa fa-folder-open"></i>',
+    '                   Portfolio',
     '               </a>',
     '               <a class="w3-bar-item w3-button w3-right" href="links.html" id="links">',
     '                   <i class="fa fa-link"></i>',
@@ -20,7 +20,8 @@ function includeHTML() {
     '               </a>',
     '           </nav>',
     '       </header>',
-    '       <br/>' //make top of content after header visible
+    '       <br/>', //make top of content below header visible
+    '       <br/>'
     ];
 
     html.forEach((line) => {
