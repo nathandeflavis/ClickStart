@@ -1,5 +1,5 @@
 # ClickStart
-A portfolio website (‘Final Project’ in Bath Spa University’s ‘Click Start’ programme).
+A portfolio website ('Final Project' in Bath Spa University’s 'Click Start' programme).
 
 # What does the project do?
 I built a website with 3 pages: a homepage introducing me and my experience on the Click Start programme, links to online profiles and a portfolio of work that I did as part of the programme.
