@@ -3,7 +3,6 @@ function includeHTML() {
     '       <header class="w3-top">',
     '           <nav class="w3-bar w3-border w3-dark-grey">',
     '               <a class="w3-bar-item w3-button" href="index.html">',
-    '                   <img alt="Nathan." width="18" height="18" src="./images/nathan.jpeg">',
     '                   Nathan De Flavis',
     '               </a>',
     '               <a class="w3-bar-item w3-button w3-right" href="portfolio.html" id="portfolio">',
